@@ -1,0 +1,80 @@
+File:    README
+Author:  Sushil Pandey
+Program:  prog6
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog6'
+   
+RUNNING THE PROGRAM
+   Type 'prog6 inflie' at the command prompt after building the program.
+   Here infile is the file name
+
+   
+PROGRAM DESCRIPTION:
+    This programs creates C++ program that calculates and reports payroll for a company.
+    
+    
+PROGRAM INPUT
+    Inputs are given through the  file name infile.
+    
+PROGRAM OUTPUT
+    All output written in output files :payroll and employees;
+    To see the output, simply Type 'cat payroll' or 'cat employees'
+
+PRogram DESIGN
+    This program construct  C++ program that calculates and reports payroll for a company.
+    There are five classes in separate files with separate implementation. Classes  
+    include the 'date.h' from previous program. Employee class inherits Person class
+    Class HourlyEmployee ans SalaryEmployee inherits Employee class. class Employees 
+    has stl list as a composition. 
+
+FILE INDEX
+   file             function(s)                   description
+   --------------   -----------------            ----------------------
+  Person.h          specification                    declarations  of                                                   
+                                                     private, public and protected attributes
+                                            
+   
+   Person.cpp       implementation                    implementation of all methods 
+                                                       constructor.
+   
+   Employee.h         specification                    declarations  of                                                   
+                                                        private, public and protected attributes
+                                            
+   
+   Employee.cpp       implementation                    implementation of all methods 
+                                                        constructor.
+
+   SalaryEmployee.h          specification               declarations   of                                                  
+                                                         private, public and protected attributes
+                                            
+   
+   SalaryEmployee.cpp       implementation               implementation of all methods 
+                                                        constructor.
+
+   HourlyEmployee.h          specification                declarations                                                     
+                                                         private, public and protected attributes
+                                            
+   
+   HourlyEmployee.cpp       implementation                 implementation of all methods 
+                                                           constructor.          -----                        builds executable prog4
+   
+
+   README                     this file                  provides outline of the program
+   
+  makefile                                                 builds executable prog6
+   
+ main.o                       main                          to compile                
+
+
+    
+PROGRAM TESTING
+   This program was tested as per data available in prog6data making it infile. Other
+   simple self testing are done. 
+   
+   
+I have given my best in this Assignment and I have thrown the exception in required spot.
+
+
+There are no known bugs.  Any errors should be reported to: pandeysu@mnstate.edu
+    

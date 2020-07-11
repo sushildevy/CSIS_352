@@ -1,0 +1,63 @@
+File:    README
+Author:  Sushil Pandey
+Program:  prog5
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog5'
+   
+RUNNING THE PROGRAM
+   Type 'prog5' at the command prompt after building the program.
+
+   
+PROGRAM DESCRIPTION:
+    This programs constructs the templated graph ADT with the use of stl vector containeer. 
+    
+    
+PROGRAM INPUT
+    Inputs are given through the main file.
+    
+PROGRAM OUTPUT
+    All output is shown in terminal , Graph values are shown 
+    
+PROGRAM DESIGN
+            This program construct the default constructor with Weight as UNWEIGHTED AND 
+            Direction as UNDIRECTED and construct other constructor as with weight and direction as WEIGHTED 
+            and DIRECTED. Also construct with WEIGHTED only and DIRECTED only. vertexCount and vertexEdge counts 
+            number of vertices and edges respectively in the Graph.Function insertVertex inserts the vertex to There
+            Graph and insertEdge inserts the edge in Graph and use 1 as default value if Weighted is not proided
+            edgeWeight gives the weight of edge if exists. Function isAdjacentTo checks the adjacency and returns 
+            true if exists and false otherwise. Function destroy destrys the graph object and initialize vertexCount 
+            and edgeCount to 0. Also in insertEdge, starting index and ending index can not be same!!
+
+FILE INDEX
+   file             function(s)                   description
+   --------------   -----------------            ----------------------
+   graph.h          specification and             declarations and                                                          
+                         implementation              implementation of all 
+                                                     private, public and protected attributes
+                                            
+   
+   main.cpp              main                      to compile
+   
+
+   makefile            -----                        builds executable prog4
+   
+
+   README                                          this file
+   
+   city.h               specification of operators  -----
+                        for graph class
+   city.cpp             implentation of city.h
+   
+   
+   
+PROGRAM TESTING
+   This program was tested as per the main file provided, Personally I created some graph object of ints and float to check templated types and other functions
+   
+   
+   
+I have given my best in this Assignment and every function and methods works as per the sample output results and I have thrown the exception in required spots.
+
+
+There are no known bugs.  Any errors should be reported to: pandeysu@mnstate.edu
+    

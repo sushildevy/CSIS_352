@@ -1,0 +1,58 @@
+File:    README
+Author:  Sushil Pandey
+Program:  prog2
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog2'
+
+RUNNING THE PROGRAM
+   Type 'prog2' at the command prompt after building the program.
+
+   
+PROGRAM DESCRIPTION:
+    This programs takes the Date object and performs the various arithmetic operations. 
+    
+    
+PROGRAM INPUT
+    Inputs are given through the main file and user can give the input when it asked for input. Input can be given as example 2/2/2018.
+    
+PROGRAM OUTPUT
+    All output is shown in terminal which are in Date format, calculated arithemetic objects and text output.
+    
+PROGRAM DESIGN
+    The general algorithm is :
+    The program sets the default current date and also takes parameterized date constructed in main. It perform various aithematic, checks leap year and make required addition, subtraction of days and year. 
+    
+    
+   
+PROGRAM TESTING
+   This program was tested with different sets of testscores.
+   
+   
+FILE INDEX
+   file             function(s)          description
+   --------------   -----------------    ----------------------
+   date.h          specification           declarations of all public and                                           
+   
+                                            private attribute.
+   
+   main.cpp           main                  to compile
+
+   date.cpp       implementation          implements the file date.h
+   
+   makefile                                 builds executable prog2
+
+   README                                   this file
+   
+   
+   
+   
+PROGRAM TESTING
+   This program was tested with different sets of testscores from main and from self input.
+   
+   
+   
+Note:I could not perform Arithmetic for months which was in bonus part. Except that I gave my best on it.
+   
+   
+   

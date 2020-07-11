@@ -1,0 +1,51 @@
+File:    README
+Author:  Sushil Pandey
+Program:  prog7
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog7'
+   
+RUNNING THE PROGRAM
+   Type 'prog7' at the command prompt after building the program.
+   Here infile is the file name
+
+   
+PROGRAM DESCRIPTION:
+    This programs creates C++ program that calculates and reports payroll for a company.
+
+PROGRAM INPUT
+    Inputs are given through the main program
+    
+PROGRAM OUTPUT
+    All output written in terminal
+
+PRogram DESIGN
+    This program construct  C++ hashtable
+
+FILE INDEX
+   file             function(s)                   description
+   --------------   -----------------            ----------------------
+   hashTable.h          specification                    declarations  of                                                   
+                  and implementation                   private, public and protected attributes
+                                            
+   
+   constants.h       constant value                   
+   
+
+   README                     this file                  provides outline of the program
+   
+  makefile                                                 builds executable prog7
+   
+ main.o                       main                          to compile                
+
+
+    
+PROGRAM TESTING
+   This program was tested as per data available main file and simple other testings. 
+   
+   
+I have given my best in this Assignment and I have thrown the exception in required spot.
+
+
+There are no known bugs.  Any errors should be reported to: pandeysu@mnstate.edu
+    

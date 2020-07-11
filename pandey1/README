@@ -1,0 +1,59 @@
+File:    README
+Author:  Sushil Pandey
+Program:  prog1
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog1'
+
+RUNNING THE PROGRAM
+   Type 'prog1' at the command prompt after building the program.
+
+   
+PROGRAM DESCRIPTION:
+    This programs takes the two integer, double value and sets the fractiona 
+    and reduces as per necessary conditions.
+
+    
+PROGRAM INPUT
+    A sigle fractional input is given by user on keyboard and other inputs are given in main.cpp
+    
+PROGRAM OUTPUT
+    All output is shown in terminal which are in fractional and decimal
+    
+PROGRAM DESIGN
+
+    The general algorithm 
+    reads the user given input and sets into fraction
+    outputs the inputs given in main.cpp
+    
+    
+
+ILE INDEX
+   file             function(s)          description
+   --------------   -----------------    ----------------------
+   fraction.h                              constant declarations
+   
+   main.cpp           main                 calls all other functions
+
+   fraction.cpp       implementation       the average of scores in an array
+
+   commonfactor.cpp   common factor         calculates the median of scores in an array
+
+   decimalToFraction.cpp                    converts decimal to fraction
+   
+                               
+   calculation.cpp   simplification         simplify the input
+
+   function.h        function prototypes     contains all funtions specifications      
+   
+   makefile                                 builds executable
+
+   README                                   this file
+   
+   
+PROGRAM TESTING
+   This program was tested with different sets of testscores.
+   
+   
+  There are no known bugs.  Any errors should be reported to:
+   pandeysu@mnstate.edu
